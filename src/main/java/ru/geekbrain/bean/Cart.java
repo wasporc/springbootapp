@@ -19,7 +19,7 @@ public class Cart  implements Store{
     public void showAllProduct() {
         if (this.productList.size() != 0)
             this.productList.forEach(product -> System.out.println(product.toString()));
-        else System.out.println("Сия пуста");
+        else System.out.println("Корзина пуста");
     }
 
     @Override
